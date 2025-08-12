@@ -75,7 +75,7 @@ section div:nth-child(2) section button{
     header nav{
         position: absolute;
         top: 100%;
-        right: -90%;
+        left: -40%;
         transition: all .5s linear;
     }
     header nav ul{
@@ -83,9 +83,10 @@ section div:nth-child(2) section button{
     }
     header label{
         display: flex;
+        font-size: 25px;
     }
     #click:checked + label + nav{
-        right: 7%;
+        left: 10%;
     }
     section{
         grid-template-columns: repeat(1,1fr);
@@ -95,7 +96,7 @@ section div:nth-child(2) section button{
     header nav{
         position: absolute;
         top: 100%;
-        right: -90%;
+        left: -40%;
         transition: all .5s linear;
     }
     header nav ul{
@@ -106,9 +107,10 @@ section div:nth-child(2) section button{
         display: flex;
     }
     #click:checked + label + nav{
-        right: 10%;
+        left: 20%;
     }
     section{
         grid-template-columns: repeat(1,1fr);
     }
+    
 }
